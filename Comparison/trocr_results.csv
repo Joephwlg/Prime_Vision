@@ -1,0 +1,7 @@
+prompt,DB_pred,DB_CER,DB_WER,DB_missing,DB_extra,DP_pred,DP_CER,DP_WER,DP_missing,DP_extra
+Paleisplein 12,Paveisplein 12.,0.143,1.0,l,v.,Pakersplein ?,0.286,1.0,li12,kr?
+Den Haag 2511,Den Hag 251201,0.231,0.667,a,20,Denhaug 25 1,0.308,1.0, Ha1,hu 
+Postbus 123,Posbus 123 1bbs,0.545,1.0,t, 1bbs,postbus123,0.182,1.0,P ,p
+Prime Vision Delft,Prime Vision Dsion Delft,0.333,0.333,,sion D,Primevision Delft,0.111,0.667, V,v
+Koningin Julianaplein 10,Koningin Julianaplein 10 1,0.083,0.333,, 1,Koningim Julianapkin LO,0.208,1.0,nle10,mkLO
+"Koningin Julianaplein 10, 2595 AA Den Haag","Koningim Julianasplein 10 , 295 A Den Hag",0.143,1.0,n5Aa,ms ,"Koningin fuliangotein 10,595 A. Den Haag",0.167,0.571,Japl 2A,fgot.
