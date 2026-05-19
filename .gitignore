@@ -1,6 +1,7 @@
 /env
 /.claude
-/DiffusionPen
 /DiffBrush
+/DiffusionPen
 /Styles
 /docs
+/data

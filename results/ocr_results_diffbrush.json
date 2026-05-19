@@ -1,126 +1,127 @@
 {
   "model": "DiffBrush",
-  "mean_CER": 0.372,
-  "mean_WER": 0.86,
+  "ocr_engine": "PaddleOCR",
+  "mean_CER": 0.416,
+  "mean_WER": 0.73,
   "rows": [
     {
       "addr": 0,
       "writer": "168",
       "reference": "Karol Gackowski Voorhofstraat 12 2511 AB Den Haag",
-      "ocr": "Karol 6ackowsk VoorhoFstaat 42 25 4 AB Den BeN",
-      "CER": 0.204,
-      "WER": 0.75
+      "ocr": "KAROl GacKOWSK /oorhofstaat 12 251 AB Den AeN",
+      "CER": 0.143,
+      "WER": 0.5
     },
     {
       "addr": 0,
       "writer": "522",
       "reference": "Karol Gackowski Voorhofstraat 12 2511 AB Den Haag",
-      "ocr": "Kacol Gackousk; [borhoßsłrcł a2 2SIl AB Dzn Hoog",
-      "CER": 0.347,
-      "WER": 0.875
+      "ocr": "Gnckoush Oorhofstrct 12 l 2S1l AB Den Hoaq",
+      "CER": 0.388,
+      "WER": 0.75
     },
     {
       "addr": 0,
       "writer": "634",
       "reference": "Karol Gackowski Voorhofstraat 12 2511 AB Den Haag",
-      "ocr": "k aro { Qa clows L; Vavklcl /2 Rs /8 Dec Hcc 25/",
-      "CER": 0.714,
-      "WER": 1.625
+      "ocr": "RS1 AS Deu Heag 25A",
+      "CER": 0.776,
+      "WER": 1.0
     },
     {
       "addr": 1,
       "writer": "168",
       "reference": "Joep Houweling Laan van Meerdervoort 81 2517 AS Den Haag",
-      "ocr": "Joe Houweling Laan n Meerderoort 8 4 2517 AS Den Hag",
-      "CER": 0.125,
+      "ocr": "Joe Houweuing Laan dn Meerderoort 81 2S17 AS Den Ha9",
+      "CER": 0.143,
       "WER": 0.6
     },
     {
       "addr": 1,
       "writer": "522",
       "reference": "Joep Houweling Laan van Meerdervoort 81 2517 AS Den Haag",
-      "ocr": "Jæe Aouiuelng Laan an Brdacr} B1 2514 As Dr Ilaac",
-      "CER": 0.411,
-      "WER": 0.8
+      "ocr": "can anTeerdarort 3 251 ASDep Hoac",
+      "CER": 0.536,
+      "WER": 1.0
     },
     {
       "addr": 1,
       "writer": "634",
       "reference": "Joep Houweling Laan van Meerdervoort 81 2517 AS Den Haag",
-      "ocr": "be Houval 1 Laav a1 Mlæe)der  l 8 2 $4+ AS Den Hec",
-      "CER": 0.482,
-      "WER": 1.1
+      "ocr": "ed ar aan St As Den Ha.x",
+      "CER": 0.679,
+      "WER": 0.8
     },
     {
       "addr": 2,
       "writer": "168",
       "reference": "Jurrien de Knecht Hoflaan 4 B 3032 AB Rotterdam",
-      "ocr": "Jukrien dE KnEca Hoflaan 48 6032 Ab Rtter:0a",
+      "ocr": "JURRIEN DE KNECA Hoflaan 48 3033 AB Ronler!oA",
       "CER": 0.213,
-      "WER": 0.667
-    },
-    {
-      "addr": 2,
-      "writer": "522",
-      "reference": "Jurrien de Knecht Hoflaan 4 B 3032 AB Rotterdam",
-      "ocr": "Jumon d Vnæhl Holloon 14 B 3032 AB Dollerdao",
-      "CER": 0.362,
-      "WER": 0.667
-    },
-    {
-      "addr": 2,
-      "writer": "634",
-      "reference": "Jurrien de Knecht Hoflaan 4 B 3032 AB Rotterdam",
-      "ocr": "Ju~e de Knecll Llolloav 4 B H 8032 AB Ro#er &aa",
-      "CER": 0.404,
-      "WER": 0.778
-    },
-    {
-      "addr": 3,
-      "writer": "168",
-      "reference": "Prime Vision BV Olof Palmestraat 14 2616 LR Delft",
-      "ocr": "PRiMe   Vısion  Bı Dlof Pames TKAT 2016 LR Delft",
-      "CER": 0.286,
-      "WER": 0.667
-    },
-    {
-      "addr": 3,
-      "writer": "522",
-      "reference": "Prime Vision BV Olof Palmestraat 14 2616 LR Delft",
-      "ocr": "Prime   Uision BV Olp   Rllmeslrcł 14 2616 [R Delfy",
-      "CER": 0.286,
       "WER": 0.556
     },
     {
+      "addr": 2,
+      "writer": "522",
+      "reference": "Jurrien de Knecht Hoflaan 4 B 3032 AB Rotterdam",
+      "ocr": "Jumen de Ve bfloan 1+ B 3032 AB RoHerdo",
+      "CER": 0.362,
+      "WER": 0.556
+    },
+    {
+      "addr": 2,
+      "writer": "634",
+      "reference": "Jurrien de Knecht Hoflaan 4 B 3032 AB Rotterdam",
+      "ocr": "floan yB H AB Rotterd. 08",
+      "CER": 0.66,
+      "WER": 1.0
+    },
+    {
+      "addr": 3,
+      "writer": "168",
+      "reference": "Prime Vision BV Olof Palmestraat 14 2616 LR Delft",
+      "ocr": "RIME Vision Bv Olof PAmestxAT 1 2016 LR DeLfT",
+      "CER": 0.122,
+      "WER": 0.444
+    },
+    {
+      "addr": 3,
+      "writer": "522",
+      "reference": "Prime Vision BV Olof Palmestraat 14 2616 LR Delft",
+      "ocr": "Prime Vision Bu Olb8 Pllmestrat 14 2616 lR Del",
+      "CER": 0.143,
+      "WER": 0.444
+    },
+    {
       "addr": 3,
       "writer": "634",
       "reference": "Prime Vision BV Olof Palmestraat 14 2616 LR Delft",
-      "ocr": "Rir Me Uson Bv Olef Totunhaf 4 26 /6 RR Dzlk",
-      "CER": 0.49,
-      "WER": 1.111
+      "ocr": "Viyion.BL webot Z616 R Delf",
+      "CER": 0.571,
+      "WER": 1.0
     },
     {
       "addr": 4,
       "writer": "168",
       "reference": "Famille van der Berg Kerkstraat 27 III 1011 AB Amsterdam",
-      "ocr": "Fami We Van   der &erg Keekstmat 27 1041 AB Amster dar",
-      "CER": 0.268,
+      "ocr": "amile van der Berg KeRKsTMA7 27 1l 01l AB Amsterda",
+      "CER": 0.196,
+      "WER": 0.5
+    },
+    {
+      "addr": 4,
+      "writer": "522",
+      "reference": "Famille van der Berg Kerkstraat 27 III 1011 AB Amsterdam",
+      "ocr": "famib van deKe <erkstoot 2f  OlL AB Amslerdo",
+      "CER": 0.411,
       "WER": 0.8
     },
     {
       "addr": 4,
-      "writer": "522",
-      "reference": "Famille van der Berg Kerkstraat 27 III 1011 AB Amsterdam",
-      "ocr": "Yamillz Un dr Bzre Kerksłoal 2F |1 IOII AB Amskrcla",
-      "CER": 0.429,
-      "WER": 0.9
-    },
-    {
-      "addr": 4,
       "writer": "634",
       "reference": "Famille van der Berg Kerkstraat 27 III 1011 AB Amsterdam",
-      "ocr": "7al Yryy d fuwa Kekshraf 21 /T /041 A8 Jusksdam",
-      "CER": 0.554,
+      "ocr": "Osh 011AL",
+      "CER": 0.893,
       "WER": 1.0
     }
   ]

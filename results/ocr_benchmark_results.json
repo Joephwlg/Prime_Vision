@@ -1,0 +1,367 @@
+{
+  "summary": {
+    "EasyOCR": {
+      "Gem. CER": 0.438,
+      "Gem. WER": 1.013
+    },
+    "TrOCR (projectie-split)": {
+      "Gem. CER": 1.214,
+      "Gem. WER": 1.407
+    },
+    "TrOCR + EasyOCR-detectie": {
+      "Gem. CER": 0.705,
+      "Gem. WER": 1.053
+    },
+    "PaddleOCR": {
+      "Gem. CER": 0.349,
+      "Gem. WER": 0.783
+    }
+  },
+  "best": "PaddleOCR",
+  "detail": {
+    "EasyOCR": [
+      {
+        "bestand": "real-hw-000001.png",
+        "referentie": "Zuiderzeestraatweg 560 8091 CV Wezep",
+        "ocr": "n34 ZieZeeshoahıea S6o 899ıCv Leze",
+        "CER": 0.556,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000002.png",
+        "referentie": "Galileistate 21 2041 BS Zandvoort",
+        "ocr": "Gullei stałe ~j B5 Zanaudc~t 204 '",
+        "CER": 0.697,
+        "WER": 1.4
+      },
+      {
+        "bestand": "real-hw-000003.png",
+        "referentie": "12410 Pecos Bluff Ct. HUMBLE, TX, 77346 Verenigde Staten",
+        "ocr": "124.10 Pecos Bluffct {lumBlE Tx,9)346 Veaiqde Staten",
+        "CER": 0.232,
+        "WER": 0.778
+      },
+      {
+        "bestand": "real-hw-000004.png",
+        "referentie": "postbus 30020 2500 GA Den Haag",
+        "ocr": "@vlu 3002d f2sov 9A Oe 3ło99",
+        "CER": 0.633,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000005.png",
+        "referentie": "Oude Rijksweg 47 4339 BA Nieuw en St. Joosland",
+        "ocr": "Qud Rijkoweg 47 4339 BA Mjiew ef Joslond",
+        "CER": 0.283,
+        "WER": 0.667
+      },
+      {
+        "bestand": "real-hw-000007.png",
+        "referentie": "Faas Wilkesstraat 2 1095 MD Amsterdam",
+        "ocr": "1 2 Faas (v2 Lessłaat 4Eas 2 109 s MD Orslerdam",
+        "CER": 0.568,
+        "WER": 1.333
+      },
+      {
+        "bestand": "real-hw-000008.png",
+        "referentie": "Sterbastion 10 1991 PM Velserbroek",
+        "ocr": "Skee bocs Hat 1o 199 | PWv Valn-ezbo cclk",
+        "CER": 0.676,
+        "WER": 1.8
+      },
+      {
+        "bestand": "real-hw-000009.png",
+        "referentie": "Zwaan 20 3641 WE Mijdrecht",
+        "ocr": "2can 2o 264( Ue mgelreclt",
+        "CER": 0.423,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000011.png",
+        "referentie": "Meester van Lingenlaan 2 App// 152 1942 BJ Beverwijk",
+        "ocr": "Meoerlano Meestex vCi lenenlaan 2 Opr// 152 1942 B, Beverugk",
+        "CER": 0.404,
+        "WER": 0.778
+      },
+      {
+        "bestand": "real-hw-000012.png",
+        "referentie": "Koolmees 28 1616 HG Hoogkarspel",
+        "ocr": "Voolnezs 28 1616 H6 Hooskarspel",
+        "CER": 0.161,
+        "WER": 0.6
+      },
+      {
+        "bestand": "real-hw-000013.png",
+        "referentie": "Parkietstraat 25 1171 HT Badhoevedorp",
+        "ocr": "Darhiel{ æal 25 M71 HT Baclhoeveco%",
+        "CER": 0.405,
+        "WER": 0.8
+      },
+      {
+        "bestand": "real-hw-000014.png",
+        "referentie": "p.a. Amsterdamse vaart 76 2032 ED Haarlem",
+        "ocr": "P-a Amslerdamze vaa  76 20 3 2 ED Haarlew",
+        "CER": 0.22,
+        "WER": 1.0
+      }
+    ],
+    "TrOCR (projectie-split)": [
+      {
+        "bestand": "real-hw-000001.png",
+        "referentie": "Zuiderzeestraatweg 560 8091 CV Wezep",
+        "ocr": "not # suggesting see",
+        "CER": 0.861,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000002.png",
+        "referentie": "Galileistate 21 2041 BS Zandvoort",
+        "ocr": "References and # Gakbeistate v. 1961-000 2041 BS Zandudor V.",
+        "CER": 1.061,
+        "WER": 1.6
+      },
+      {
+        "bestand": "real-hw-000003.png",
+        "referentie": "12410 Pecos Bluff Ct. HUMBLE, TX, 77346 Verenigde Staten",
+        "ocr": "1961 62 .",
+        "CER": 0.911,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000004.png",
+        "referentie": "postbus 30020 2500 GA Den Haag",
+        "ocr": "1961 1957 Pesothu-venillaag 1961 . K. J.",
+        "CER": 1.2,
+        "WER": 1.167
+      },
+      {
+        "bestand": "real-hw-000005.png",
+        "referentie": "Oude Rijksweg 47 4339 BA Nieuw en St. Joosland",
+        "ocr": "George Byloug\"Ten . \" Joostond",
+        "CER": 0.674,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000007.png",
+        "referentie": "Faas Wilkesstraat 2 1095 MD Amsterdam",
+        "ocr": "20 Kansas Wieheart at 2",
+        "CER": 0.784,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000008.png",
+        "referentie": "Sterbastion 10 1991 PM Velserbroek",
+        "ocr": "1961 Pittsburgh",
+        "CER": 0.794,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000009.png",
+        "referentie": "Zwaan 20 3641 WE Mijdrecht",
+        "ocr": "References and representatives Ewan 20 0 3641 WE.mydrecks .",
+        "CER": 1.577,
+        "WER": 1.4
+      },
+      {
+        "bestand": "real-hw-000011.png",
+        "referentie": "Meester van Lingenlaan 2 App// 152 1942 BJ Beverwijk",
+        "ocr": "1961 German banks",
+        "CER": 0.865,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000012.png",
+        "referentie": "Koolmees 28 1616 HG Hoogkarspel",
+        "ocr": "Kortheens Hanskorspd .",
+        "CER": 0.71,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000013.png",
+        "referentie": "Parkietstraat 25 1171 HT Badhoevedorp",
+        "ocr": "THE NEW YORK MANCERVANCERIA 1961 establishments and transferred to Parkietskrant 25 , ITFL HT. Badhoeredorp .",
+        "CER": 2.135,
+        "WER": 3.0
+      },
+      {
+        "bestand": "real-hw-000014.png",
+        "referentie": "p.a. Amsterdamse vaart 76 2032 ED Haarlem",
+        "ocr": "the other performances were transferred to the 1961 62m.00061m.000 mi.000 mi.000 mi.000 mi.000 1961 Montgomery's first P.a. Amsterdamsewart 7 6 2032 Ed Haarlem",
+        "CER": 3.0,
+        "WER": 2.714
+      }
+    ],
+    "TrOCR + EasyOCR-detectie": [
+      {
+        "bestand": "real-hw-000001.png",
+        "referentie": "Zuiderzeestraatweg 560 8091 CV Wezep",
+        "ocr": "1948 Zunderzastrating so",
+        "CER": 0.778,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000002.png",
+        "referentie": "Galileistate 21 2041 BS Zandvoort",
+        "ocr": "Golile's Zandwart",
+        "CER": 0.606,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000003.png",
+        "referentie": "12410 Pecos Bluff Ct. HUMBLE, TX, 77346 Verenigde Staten",
+        "ocr": "tumax #",
+        "CER": 0.911,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000004.png",
+        "referentie": "postbus 30020 2500 GA Den Haag",
+        "ocr": "I ,500YA.30EN2Hang",
+        "CER": 0.7,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000005.png",
+        "referentie": "Oude Rijksweg 47 4339 BA Nieuw en St. Joosland",
+        "ocr": "4.33g.BA New-Tens . Joostond",
+        "CER": 0.587,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000007.png",
+        "referentie": "Faas Wilkesstraat 2 1095 MD Amsterdam",
+        "ocr": "emland . Here , 0 years while a masterkant # 2",
+        "CER": 0.946,
+        "WER": 1.833
+      },
+      {
+        "bestand": "real-hw-000008.png",
+        "referentie": "Sterbastion 10 1991 PM Velserbroek",
+        "ocr": "steratively valuable",
+        "CER": 0.647,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000009.png",
+        "referentie": "Zwaan 20 3641 WE Mijdrecht",
+        "ocr": "3641 WE-mgolnecht .",
+        "CER": 0.615,
+        "WER": 0.8
+      },
+      {
+        "bestand": "real-hw-000011.png",
+        "referentie": "Meester van Lingenlaan 2 App// 152 1942 BJ Beverwijk",
+        "ocr": "underland , measuring an Hungarian ?",
+        "CER": 0.827,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000012.png",
+        "referentie": "Koolmees 28 1616 HG Hoogkarspel",
+        "ocr": "1016 HG-Hougharspet .",
+        "CER": 0.613,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000013.png",
+        "referentie": "Parkietstraat 25 1171 HT Badhoevedorp",
+        "ocr": "Parkets Brad 2ove do go",
+        "CER": 0.622,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000014.png",
+        "referentie": "p.a. Amsterdamse vaart 76 2032 ED Haarlem",
+        "ocr": "20 3.2Amsterdamheart 7 6",
+        "CER": 0.61,
+        "WER": 1.0
+      }
+    ],
+    "PaddleOCR": [
+      {
+        "bestand": "real-hw-000001.png",
+        "referentie": "Zuiderzeestraatweg 560 8091 CV Wezep",
+        "ocr": "Zuiderzeestraatweg s6o 80gicy Wezep",
+        "CER": 0.167,
+        "WER": 0.6
+      },
+      {
+        "bestand": "real-hw-000002.png",
+        "referentie": "Galileistate 21 2041 BS Zandvoort",
+        "ocr": "galileistate 2i",
+        "CER": 0.576,
+        "WER": 0.8
+      },
+      {
+        "bestand": "real-hw-000003.png",
+        "referentie": "12410 Pecos Bluff Ct. HUMBLE, TX, 77346 Verenigde Staten",
+        "ocr": "12410 PecosBluffct tluMBETX37346 Verenigde Staten",
+        "CER": 0.196,
+        "WER": 0.667
+      },
+      {
+        "bestand": "real-hw-000004.png",
+        "referentie": "postbus 30020 2500 GA Den Haag",
+        "ocr": "potbus 30020 2506gA DerHloeg",
+        "CER": 0.267,
+        "WER": 0.833
+      },
+      {
+        "bestand": "real-hw-000005.png",
+        "referentie": "Oude Rijksweg 47 4339 BA Nieuw en St. Joosland",
+        "ocr": "Righoweg 47 Oude BA Nieuw enst.Joslomd 4339",
+        "CER": 0.478,
+        "WER": 0.667
+      },
+      {
+        "bestand": "real-hw-000007.png",
+        "referentie": "Faas Wilkesstraat 2 1095 MD Amsterdam",
+        "ocr": "109s MD Qmste dam",
+        "CER": 0.622,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000008.png",
+        "referentie": "Sterbastion 10 1991 PM Velserbroek",
+        "ocr": "SrerbasHoy 10 1991Pm Velrebroeh",
+        "CER": 0.235,
+        "WER": 0.8
+      },
+      {
+        "bestand": "real-hw-000009.png",
+        "referentie": "Zwaan 20 3641 WE Mijdrecht",
+        "ocr": "Zxan 20 36u1 WE_mipreclt",
+        "CER": 0.269,
+        "WER": 0.8
+      },
+      {
+        "bestand": "real-hw-000011.png",
+        "referentie": "Meester van Lingenlaan 2 App// 152 1942 BJ Beverwijk",
+        "ocr": "ANE Meester van lingenlacn 2 pp//152 1942Bj Mmam B",
+        "CER": 0.327,
+        "WER": 0.778
+      },
+      {
+        "bestand": "real-hw-000012.png",
+        "referentie": "Koolmees 28 1616 HG Hoogkarspel",
+        "ocr": "Koolmees28 6i6 HG Hoogkarspel",
+        "CER": 0.097,
+        "WER": 0.6
+      },
+      {
+        "bestand": "real-hw-000013.png",
+        "referentie": "Parkietstraat 25 1171 HT Badhoevedorp",
+        "ocr": "Parkielstroct25 1171HT Bachoveclo",
+        "CER": 0.297,
+        "WER": 1.0
+      },
+      {
+        "bestand": "real-hw-000014.png",
+        "referentie": "p.a. Amsterdamse vaart 76 2032 ED Haarlem",
+        "ocr": "2032 EDHaarlem",
+        "CER": 0.659,
+        "WER": 0.857
+      }
+    ]
+  }
+}
